@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "label": "build-chapter2",
+            "type": "shell",
+            "command": "cd ${workspaceFolder} ; .\\chapter2\\make.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {
+            "label": "build-chapter3",
+            "type": "shell",
+            "command": "cd ${workspaceFolder} ; .\\chapter3\\make.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ],
+    "version": "2.0.0"
+}
